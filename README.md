@@ -68,3 +68,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Submission ####
+
+#### Tech Stack ####
+HTML5, CSS3, JavaScript, React hooks
+
+### Steps to run the project ####
+Follow the below steps,
+
+Git clone : $ git clone https://github.com/mahavinay/dna.
+$ cd dna
+
+Install node dependencies $ npm install
+
+Run the below command $ npm start
+
+Application will open in a browser
+
+#### Improvements ####
+It has to support various combination of x and y co-ordinations to plot.
+Recatgular selection has to be implemented
+Currently, the application is not responsive. It can be done responsive.
+
+### Assumption #####
+I have assumed we need to take the values which has numeric values from the tags key, and have those nmerical values found inside tag key, drop down for x and y axis with available numerical value from tag key.

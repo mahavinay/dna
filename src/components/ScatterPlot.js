@@ -45,10 +45,10 @@ function ScatterPlot() {
               .style("'margin-top'", "100px")
 
         const xScale =d3.scaleLinear()
-             .domain([0,2000])
+             .domain([0,20000])
              .range([0,w])
         const yScale =d3.scaleLinear()
-             .domain([0,2000])
+             .domain([0,20000])
              .range([h,0])
         
         const xAxis = d3.axisBottom(xScale).ticks(10);
@@ -71,6 +71,7 @@ function ScatterPlot() {
         svg.selectAll()
           .data(dataToPlot)
           .enter()
+          // .style("color", "red")
           .append('circle')
             .attr('cx', d => xScale(d[0]))
             .attr('cy', d => yScale(d[1]))
